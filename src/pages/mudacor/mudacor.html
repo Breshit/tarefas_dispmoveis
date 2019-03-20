@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Mudar cor da label</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<button ion-button (click)="mudar()">Mudar</button>
+
+	<ion-item [ngStyle]="{'background-color': flag? 'blue' : 'white'}">Praticando IONIC!</ion-item>
+	<ion-item [ngStyle]="{'background-color': flag? 'green' : 'white'}">Praticando IONIC!</ion-item>
+	<ion-item [ngStyle]="{'background-color': flag? 'red' : 'white'}">Praticando IONIC!</ion-item>
+
+</ion-content>

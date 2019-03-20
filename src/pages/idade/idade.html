@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Idade</ion-title>
+  </ion-navbar>
+</ion-header>
+<!-- Faça um aplicativo que baseia-se no ano de nascimento de uma
+pessoa classifique-a em: criança, adolescente ou adulto quando o
+botão for tocado
+– Criança: menor ou igual a 12 anos
+– Adolescente: maior que 12 anos e menor ou igual a 18 anos
+– Adulto: maior que 18 anos -->
+<ion-content padding>
+
+  <ion-card>
+    <form #form="ngForm" (ngSubmit)="verIdade(form)">
+      <ion-item>
+        <ion-input [(ngModel)]="form.idade" type="idade" name="idade" placeholder="idade" required="true"></ion-input>
+      </ion-item>
+      <ion-item>
+        <button ion-button type="submit">Enviar</button>
+      </ion-item>
+    </form>
+  </ion-card>
+  <ion-item>
+    >> {{label}}
+  </ion-item>
+  
+</ion-content>

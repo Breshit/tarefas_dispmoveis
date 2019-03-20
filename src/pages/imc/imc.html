@@ -1,0 +1,28 @@
+<ion-header>
+	<ion-navbar>
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>IMC</ion-title>
+	</ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+	<ion-card>
+		<form #form="ngForm" (ngSubmit)="calcImc(form)">
+			<ion-item>
+				<ion-input [(ngModel)]="form.altura" type="text" name="altura" placeholder="altura em m" required="true"></ion-input>
+			</ion-item>
+			<ion-item>
+				<ion-input [(ngModel)]="form.peso" type="text" name="peso" placeholder="peso em kg" required="true"></ion-input>
+			</ion-item>
+			<ion-item>
+				<button ion-button type="submit">Enviar</button>
+			</ion-item>
+		</form>
+	</ion-card>
+	<ion-item>
+		>> {{label}}
+	</ion-item>
+</ion-content>
