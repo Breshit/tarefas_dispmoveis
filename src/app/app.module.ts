@@ -7,6 +7,10 @@ import { HomePage } from '../pages/home/home';
 import { IdadePage } from '../pages/idade/idade';
 import { MudacorPage } from '../pages/mudacor/mudacor';
 import { ImcPage } from '../pages/imc/imc';
+import { CalcPage } from '../pages/calc/calc';
+import { CombustivelPage } from '../pages/combustivel/combustivel';
+import { GasPage } from '../pages/gas/gas';
+import { AlcoolPage } from '../pages/alcool/alcool';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +21,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     IdadePage,
     MudacorPage,
-    ImcPage
+    ImcPage,
+    CalcPage,
+    CombustivelPage,
+    GasPage,
+    AlcoolPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +37,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     IdadePage,
     MudacorPage,
-    ImcPage
+    ImcPage,
+    CalcPage,
+    CombustivelPage,
+    GasPage,
+    AlcoolPage
   ],
   providers: [
     StatusBar,

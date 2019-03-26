@@ -7,6 +7,8 @@ import { HomePage } from '../pages/home/home';
 import { IdadePage } from '../pages/idade/idade';
 import { MudacorPage } from '../pages/mudacor/mudacor';
 import { ImcPage } from '../pages/imc/imc';
+import { CalcPage } from '../pages/calc/calc';
+import { CombustivelPage } from '../pages/combustivel/combustivel';
 
 @Component({
   templateUrl: 'app.html'
@@ -26,7 +28,9 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'Idade', component: IdadePage },
       { title: 'Muda cor', component: MudacorPage },
-      { title: 'IMC', component: ImcPage}
+      { title: 'IMC', component: ImcPage},
+      { title: 'Calculadora', component: CalcPage},
+      { title: 'Navegação entre telas', component: CombustivelPage}
     ];
 
   }
