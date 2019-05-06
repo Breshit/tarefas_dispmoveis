@@ -9,6 +9,7 @@ import { MudacorPage } from '../pages/mudacor/mudacor';
 import { ImcPage } from '../pages/imc/imc';
 import { CalcPage } from '../pages/calc/calc';
 import { CombustivelPage } from '../pages/combustivel/combustivel';
+import { CadastroPage } from '../pages/cadastro/cadastro';
 
 @Component({
   templateUrl: 'app.html'
@@ -30,7 +31,8 @@ export class MyApp {
       { title: 'Muda cor', component: MudacorPage },
       { title: 'IMC', component: ImcPage},
       { title: 'Calculadora', component: CalcPage},
-      { title: 'Navegação entre telas', component: CombustivelPage}
+      { title: 'Navegação entre telas', component: CombustivelPage},
+      { title: 'CadastroFuncionário', component: CadastroPage}
     ];
 
   }

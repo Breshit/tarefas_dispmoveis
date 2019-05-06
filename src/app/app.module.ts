@@ -11,9 +11,11 @@ import { CalcPage } from '../pages/calc/calc';
 import { CombustivelPage } from '../pages/combustivel/combustivel';
 import { GasPage } from '../pages/gas/gas';
 import { AlcoolPage } from '../pages/alcool/alcool';
+import { CadastroPage } from '../pages/cadastro/cadastro';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,11 +27,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CalcPage,
     CombustivelPage,
     GasPage,
-    AlcoolPage
+    AlcoolPage,
+    CadastroPage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    FormsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -41,7 +45,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CalcPage,
     CombustivelPage,
     GasPage,
-    AlcoolPage
+    AlcoolPage,
+    CadastroPage
   ],
   providers: [
     StatusBar,
