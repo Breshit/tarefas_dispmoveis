@@ -26,13 +26,14 @@
       <ion-input [(ngModel)]="form.nome" type="text" name="nome" placeholder="Nome"></ion-input>
     </ion-item>
 
-    <ion-item>
-      <ion-label alt="check">Deseja receber notificações por e-mail?</ion-label>
-      <ion-radio [(ngModel)]="form.check" name="check" id="check" slot="start" value="true"></ion-radio>
+    <ion-label>Deseja receber notificações por e-mail?</ion-label>
+    <ion-item radio-group [(ngModel)]="form.check" name="check">
+      <ion-radio value="true"></ion-radio>
     </ion-item>
     <button ion-button type="submit">Cadastrar</button>
   </form>
 
   {{cadastro}}
+  {{check}}
 
 </ion-content>

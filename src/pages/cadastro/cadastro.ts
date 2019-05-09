@@ -15,7 +15,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class CadastroPage {
   cadastro: any;
-
+  check: any;
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) { }
 
   ionViewDidLoad() {

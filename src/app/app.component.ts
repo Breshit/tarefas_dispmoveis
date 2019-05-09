@@ -10,6 +10,7 @@ import { ImcPage } from '../pages/imc/imc';
 import { CalcPage } from '../pages/calc/calc';
 import { CombustivelPage } from '../pages/combustivel/combustivel';
 import { CadastroPage } from '../pages/cadastro/cadastro';
+import { CavaleirosPage } from '../pages/cavaleiros/cavaleiros';
 
 @Component({
   templateUrl: 'app.html'
@@ -32,7 +33,8 @@ export class MyApp {
       { title: 'IMC', component: ImcPage},
       { title: 'Calculadora', component: CalcPage},
       { title: 'Navegação entre telas', component: CombustivelPage},
-      { title: 'CadastroFuncionário', component: CadastroPage}
+      { title: 'CadastroFuncionário', component: CadastroPage},
+      { title: 'Cavaleiros do Zodiaco', component: CavaleirosPage}
     ];
 
   }

@@ -12,6 +12,7 @@ import { CombustivelPage } from '../pages/combustivel/combustivel';
 import { GasPage } from '../pages/gas/gas';
 import { AlcoolPage } from '../pages/alcool/alcool';
 import { CadastroPage } from '../pages/cadastro/cadastro';
+import { CavaleirosPage } from '../pages/cavaleiros/cavaleiros';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -28,7 +29,8 @@ import { FormsModule } from '@angular/forms';
     CombustivelPage,
     GasPage,
     AlcoolPage,
-    CadastroPage
+    CadastroPage,
+    CavaleirosPage
   ],
   imports: [
     BrowserModule,
@@ -46,7 +48,8 @@ import { FormsModule } from '@angular/forms';
     CombustivelPage,
     GasPage,
     AlcoolPage,
-    CadastroPage
+    CadastroPage,
+    CavaleirosPage
   ],
   providers: [
     StatusBar,
