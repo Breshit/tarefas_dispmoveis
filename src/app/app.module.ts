@@ -13,6 +13,7 @@ import { GasPage } from '../pages/gas/gas';
 import { AlcoolPage } from '../pages/alcool/alcool';
 import { CadastroPage } from '../pages/cadastro/cadastro';
 import { CavaleirosPage } from '../pages/cavaleiros/cavaleiros';
+import { CavaloPage } from '../pages/cavalo/cavalo';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -30,7 +31,8 @@ import { FormsModule } from '@angular/forms';
     GasPage,
     AlcoolPage,
     CadastroPage,
-    CavaleirosPage
+    CavaleirosPage,
+    CavaloPage
   ],
   imports: [
     BrowserModule,
@@ -49,7 +51,8 @@ import { FormsModule } from '@angular/forms';
     GasPage,
     AlcoolPage,
     CadastroPage,
-    CavaleirosPage
+    CavaleirosPage,
+    CavaloPage
   ],
   providers: [
     StatusBar,

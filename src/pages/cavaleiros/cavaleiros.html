@@ -14,5 +14,10 @@
 </ion-header>
 
 <ion-content padding>
-
+  <ion-list>
+    <ion-item *ngFor="let c of cavaleiros" (click)="abrir(c)">
+      <ion-label>{{c.nome}}</ion-label>
+    </ion-item>
+  </ion-list>
+  
 </ion-content>
